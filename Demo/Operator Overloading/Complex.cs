@@ -104,6 +104,22 @@
             return (left.Real != right.Real) || (left.Imag != right.Imag);
         }
 
+        // User-Defined Casting Operator
+        // Complex ---> String
+        // Function : public - Static
+
+        // Implicit - Explicit
+        public static explicit operator string(Complex complex)
+        {
+            return complex.ToString();
+        }
+
+        public static explicit operator int(Complex complex)
+        {
+            return complex.Real;
+        }
+
+
         public override string ToString()
         {
             return $"{Real} + {Imag} i";

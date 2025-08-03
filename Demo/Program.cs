@@ -194,7 +194,9 @@
             //Console.WriteLine(Utilities.PI); 
             #endregion
 
-
+            #region Sealed
+            // Sealed (For Inheritance) : C# Keyword [Class - Method - Property] 
+            #endregion
 
 
 

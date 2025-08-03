@@ -165,9 +165,34 @@
             // Automapper : Automatic Mapping 
             #endregion
 
+            #region Static
+            // static : C# Keyword [class - method - property - constructor - attributes]
+            // static class
+            // static mehtod
+            // static property
+            // static constructor
+            // static attribute
 
+            //Utilities U01 = new Utilities();
+            //Utilities U02 = new Utilities();
+            //Utilities U03 = new Utilities();
 
+            //Console.WriteLine(U01.CmToInch(254)); // 100
+            //Console.WriteLine(U02.CmToInch(254)); // 100
+            //Console.WriteLine(U03.CmToInch(254)); // 100
 
+            //Console.WriteLine(Utilities.CmToInch(254)); // 100
+            //Console.WriteLine(Utilities.CmToInch(254)); // 100
+            //Console.WriteLine(Utilities.CmToInch(254)); // 100
+
+            //Console.WriteLine(U01.PI);
+            //Console.WriteLine(U02.PI);
+            //Console.WriteLine(U03.PI);
+
+            //Console.WriteLine(Utilities.PI);
+            //Console.WriteLine(Utilities.PI);
+            //Console.WriteLine(Utilities.PI); 
+            #endregion
 
 
 

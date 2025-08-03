@@ -96,14 +96,23 @@ namespace Demo
             //Console.WriteLine(X);
 
 
-            Console.WriteLine(C01);
-            Complex C03 = C01++;
+            //Console.WriteLine(C01);
+            //Complex C03 = C01++;
 
-            Console.WriteLine(C03);
+            //Console.WriteLine(C03);
 
-            C03 = C01--;
+            //C03 = C01--;
 
-            Console.WriteLine(C03);
+            //Console.WriteLine(C03);
+
+            if (C01 > C02)
+            {
+                Console.WriteLine(value: "C01 is greater than C02");
+            }
+            else
+            {
+                Console.WriteLine(value: "C01 is NOT greater than C02");
+            }
 
 
 

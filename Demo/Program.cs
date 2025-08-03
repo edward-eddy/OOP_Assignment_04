@@ -198,7 +198,13 @@
             // Sealed (For Inheritance) : C# Keyword [Class - Method - Property] 
             #endregion
 
+            #region Partial
+            // Partial 
+            // Can Split a Class On Separate Partial Class To Make On Whole Class
 
+            //Employee employee = new Employee();
+            //employee. 
+            #endregion
 
 
 
